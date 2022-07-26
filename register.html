@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sing Up</title>
+	<link rel="stylesheet" type="text/css" href="style_login.css">
+</head>
+<body>
+	<div class="panel">
+		<div class="title">Create an account</div>
+		<p class="panel-indicator email">E-mail</p>
+		<input class="panel-text" type="email"/>
+		<p class="panel-indicator username">Username</p>
+		<input class="panel-text" type="text"/>
+		<p class="panel-indicator password">Password</p>
+		<input class="panel-text" type="password"/>
+		<p class="panel-indicator password">Confirm password</p>
+		<input class="panel-text input-password" type="password"/>
+		<span class="panel-indicator">Agree with terms and privacy policy of use?</span>
+		<div class="div-button">
+			<input class="panel-login-button" type="button" name="register" value="sing up" onclick="register()">
+		</div>
+		<p class="panel-indicator">Have an account? <a class="linktype" href="index.html" style="color: #706d72;">Log in</a></p>
+	</div>
+
+	<script type="text/javascript">
+		function register()
+		{
+			alert("registered!");
+		}
+	</script>
+</body>
+</html>

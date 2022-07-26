@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log in</title>
+	<link rel="stylesheet" type="text/css" href="style_login.css">
+</head>
+<body>
+	<div class="panel">
+		<div class="title">Log in</div>
+		<p class="panel-indicator username">Username</p>
+		<input class="panel-text" type="text"/>
+		<p class="panel-indicator password">Password</p>
+		<input class="panel-text input-password" type="password"/>
+		<a class="panel-indicator linktype">Don't remember your password?</a>
+		<div class="div-button">
+			<input class="panel-login-button" type="button" name="login" value="sing in" onclick="login()">
+		</div>
+		<p class="panel-indicator">Not registered? <a class="linktype" href="register.html" style="color: #706d72;">Sing-Up</a></p>
+	</div>
+
+	<script type="text/javascript">
+		function login()
+		{
+			alert("logged!");
+		}
+	</script>
+</body>
+</html>
