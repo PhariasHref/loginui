@@ -92,6 +92,13 @@ body {
 
 @media (max-width: 600px) {
 	.panel {
-		width: 300px;
+		width: 320px;
+	}
+
+	.panel-login-button:hover {
+		background-color: #bbb6bf;
+		color: #19151c;
+		border: 2px solid #bbb6bf;
+		text-decoration: underline;
 	}
 }
