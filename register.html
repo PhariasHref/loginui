@@ -9,26 +9,23 @@
 <body>
 	<div class="panel">
 		<div class="title">Create an account</div>
-		<p class="panel-indicator email">E-mail</p>
-		<input class="panel-text" type="email"/>
-		<p class="panel-indicator username">Username</p>
-		<input class="panel-text" type="text"/>
-		<p class="panel-indicator password">Password</p>
-		<input class="panel-text" type="password"/>
-		<p class="panel-indicator password">Confirm password</p>
-		<input class="panel-text input-password" type="password"/>
-		<span class="panel-indicator">Agree with terms and privacy policy of use?</span>
-		<div class="div-button">
-			<input class="panel-login-button" type="button" name="register" value="sing up" onclick="register()">
-		</div>
+		<form id="register-form">
+			<p class="panel-indicator">E-mail</p>
+			<input class="panel-text email" id="email" type="text"/>
+			<p class="panel-indicator">Username</p>
+			<input class="panel-text username" id="username" type="text"/>
+			<p class="panel-indicator">Password</p>
+			<input class="panel-text" id="type-password" type="password"/>
+			<p class="panel-indicator password">Confirm password</p>
+			<input class="panel-text input-password" id="confirm-password" type="password"/>
+			<span class="panel-indicator">Agree with terms and privacy policy of use?</span>
+			<div class="div-button">
+				<input class="panel-login-button" type="submit" name="register" value="sing up">
+			</div>
+		</form>
 		<p class="panel-indicator">Have an account? <a class="linktype" href="index.html" style="color: #706d72;">Log in</a></p>
 	</div>
 
-	<script type="text/javascript">
-		function register()
-		{
-			alert("registered!");
-		}
-	</script>
+	<script type="text/javascript" src="register.js"></script>
 </body>
 </html>
